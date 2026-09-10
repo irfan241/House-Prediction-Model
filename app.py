@@ -3,7 +3,7 @@ import streamlit as st
 import pickle as pkl
 import pandas as pd
 
-with open("/content/MLR.pickle", "rb") as f:
+with open("MLR.pickle", "rb") as f:
   s_model = pkl.load(f)
 
 st.title("House Price Prediction")
